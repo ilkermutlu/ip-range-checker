@@ -1,0 +1,12 @@
+{
+    "name": "ilkermutlu/ip-range-checker",
+    "description": "This package is a little helper to check if a given IP address is in a certain IP range.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilker Mutlu",
+            "email": "ilker.mutlu@gmail.com"
+        }
+    ],
+    "require": {}
+}
