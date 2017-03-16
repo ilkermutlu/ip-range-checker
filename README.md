@@ -1,7 +1,6 @@
 # IP Range Checker
 
 This is a simple helper package that I use when I need to check if an IP is in a given IP range.
--
 
 All ideas, contributions and criticism are welcome.
 
