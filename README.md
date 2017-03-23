@@ -8,27 +8,33 @@ All ideas, contributions and criticism are welcome.
 
 ```bash
 composer require ilkermutlu/ip-range-checker
-````
+```
 
 # Usage
 
 Import the facade in your script:
 
-    use IlkerMutlu\IPRangeChecker\Checker;
+```php
+use IlkerMutlu\IPRangeChecker\Checker;
 
-    $ip = '192.168.0.22';
-    $checker = Ilkermutlu\IPRangeChecker\Checker::forIp($ip);
+$ip = '192.168.0.22';
+$checker = Checker::forIp($ip);
+```
 
 Pass the start IP and end IP in an array to the ```setRange()``` method.
 
-    $checker->setRange([
-        '192.168.0.1',
-        '192.168.0.255'
-    ]);
+```php
+$checker->setRange([
+    '192.168.0.1',
+    '192.168.0.255'
+]);
+```
 
 You can also use a wildcard.
 
-    $checker->setRange('192.168.0.*');
+```php
+$checker->setRange('192.168.0.*');
+```
 
 After setting the range, just call the ```check()``` method on the checker instance, which will return a boolean value.
 
