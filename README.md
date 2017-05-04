@@ -66,4 +66,5 @@ $checker->check();
 ## TODO
 
 1. Tests
-2. Support CIDR
+2. ~~Support dashed IP range strings~~
+3. Support CIDR
