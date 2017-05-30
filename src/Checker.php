@@ -21,6 +21,11 @@ class Checker
         return new Checker($ipAddress);
     }
 
+    public function getRange()
+    {
+        return $this->range;
+    }
+
     public function setRange($range)
     {
         if (is_array($range)) {
